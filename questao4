@@ -1,0 +1,9 @@
+#Gerar um vetor de 20 elementos aleatórios, depois remover os valores duplicados.
+import random
+
+vetor = [random.randint (1,51) for _ in range (20)]
+print(vetor)
+
+vetor_sem_duplicado = list(set(vetor))
+
+print(f'Vetor sem duplicatas: {vetor_sem_duplicado}')
