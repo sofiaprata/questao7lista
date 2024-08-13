@@ -1,0 +1,11 @@
+import numpy as np
+
+vetor = np.random.randint(0,101,10)
+
+pares = np.sum(vetor % 2 == 0)
+impares = np.sum(vetor %2 != 0)
+
+print('Vetor:', vetor)
+print(f'Quantidade de números pares: {pares}')
+print(f'Quantidade de números pares: {impares}')
+
