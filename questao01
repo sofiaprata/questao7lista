@@ -1,0 +1,12 @@
+#gerar um vetor de 10 números e em seguida imprimi-lo de forma inversa, (intervalo 1-50).
+
+#importando biblioteca
+import random
+
+#gerando um vetor randomizado de 10 elementos de 1-50 
+vetor = [random.randint(1,51) for _ in range (10)]
+print(vetor)
+
+#transformando o vetor em inverso
+vetor.reverse()
+print(vetor)
