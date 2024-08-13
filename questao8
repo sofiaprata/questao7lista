@@ -1,0 +1,12 @@
+import numpy as np
+from collections import Counter
+
+vetor = np.random.randint(1,11,10)
+print(vetor)
+
+contagem = Counter(vetor)
+
+valores_repetidos = {k: v for k, v in contagem.items() if v > 1}
+
+print(f'Vetor gerado: {vetor}')
+print(f'Valores repetidos e suas contagens: {valores_repetidos}')
